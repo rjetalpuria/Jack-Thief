@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #008037;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#logo{
+  width: 350px;
+}
+#name-input{
+  width: 150px;
+}
+#room-input{
+  width: 370px;
+}
+#or{
+  color: white;
+}
+#start-btn:hover, #reset-btn:hover{
+  background: #008037;
+  color: red;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 16px 20px 0 rgba(0,0,0,0.19);
+}
+#pile-btn:hover, #pair-btn:hover, #shuffle-btn:hover{
+  background: #008037;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 16px 20px 0 rgba(0,0,0,0.19);
+}
+#start-btn, #reset-btn, #pile-btn, #pair-btn, #shuffle-btn{
+  background: #008037;
+  color: white;
+  margin-right: 20px;
+}
+#pick-btn{
+  margin-left: 5px;
+  position: relative;
+  bottom: 3px;
+}
+#win-text{
+  color: gold;
+}
+#lose-text{
+  color: red;
+}
+
+label{
+  font-size: 20px;
+  /*font-family: 'Silkscreen', serif;*/
+}
+
+input{
+  font-size: 15px;
+  font-family: 'Press Start 2P', serif;
+  background: #008037;
+  color: white;
+  border: none;
+  border-bottom: 2px solid red;
+  border-radius: 10px;
+  position: relative;
+  bottom: 2px;
+  padding-left: 10px;
+}
+input[type=number]{
+  width: 50px;
+}
+
+input::placeholder{
+  color: #a2a2a2;
+}
+
+button{
+  font-size: 15px;
+  font-family: 'Press Start 2P', serif;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 7px;
+}
+button:hover{
+  background: gold;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 16px 20px 0 rgba(0,0,0,0.19);
+}
+select{
+  font-family: 'Press Start 2P', serif;
+  background: white;
+  border: none;
+  border-radius: 7px;
+  position: relative;
+  bottom: 2px;
+}
+
+.game-info{
+  color: white;
+  font-family: Rockwell, serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px 10px 5px 10px;
+  border: 5px solid gold;
+  line-height: 20px;
+}
+
+.info-name{
+  color: gold;
+}
+
+.info-container strong,
+.info-container p{
+  display: inline;
+  vertical-align: top;
+  line-height: 36px;
+}
+.card-images{
+  width: 150px;
+}
