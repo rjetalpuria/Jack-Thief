@@ -8,4 +8,4 @@ A simple and fun card game I used to play as a kid. For best experience, play wi
 - MongoDB hosted on Atlas
 - React and JavaScript
 
-*Big shoutout to Twilio. This project uses their JSON to POJO mapper - Jackson!!*
+*Big shoutout to www.deckofcardsapi.com and Twilio's Jackson (JSON to POJO mapper) for making this project possible*
